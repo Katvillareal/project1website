@@ -1,0 +1,117 @@
+
+       
+      /* image1 */  .parallax1 {
+            background:url(image1.jpg) no-repeat center;
+            background-size:805.68px 527.43px;
+            background-attachment: fixed;
+            background-position: right;
+            height:800px;
+                     
+        }  
+         /* image2 */  .parallax2 {
+            background:url(image2.jpg) no-repeat center;
+            background-size:805.68px 527.43px;
+            background-attachment: fixed;
+            background-position: right;
+           height: 800px;
+             
+        
+        }   
+   
+  
+       /* image4 */ .parallax3 {
+            background:url(image4.jpg) no-repeat center;
+            background-size:805.68px 527.43px;
+            background-attachment: fixed;
+            background-position: right;
+           height: 800px;
+         
+        
+        }   
+        /* image5 */.parallax4 {
+            background:url(image5.jpg) no-repeat center;
+            background-size:805.68px 527.43px;
+            background-attachment: fixed;
+            background-position: right;
+           height: 800px;
+            
+        } 
+
+        
+
+
+      h1{ /*text*/
+  
+        font-family:Adobe Hebrew;
+        font-size: 17px;
+        color:black;
+          /*margin-top: 100px;
+    margin-bottom: 500px;*/
+    margin-right: 900px;
+    margin-left: 50px;
+    float: left;
+      }
+
+
+      h2{ /*Titles */
+  
+        font-family: Adobe Hebrew;
+        font-size: 25px;
+        color:black;
+          /*margin-top: 100px;
+    margin-bottom: 500px;*/
+    margin-right: 700px;
+    margin-left: 50px;
+    float: left;
+      }
+
+
+    
+
+        /* big header */ 
+        div.header{
+            position:fixed;
+            left: 440px;
+            top: 115px;
+        } 
+
+/* header in nav bar */ 
+ div.wellington{
+            position:fixed;
+            left: 0px;
+            top: 0px;
+        } 
+
+        /* nav bar */ 
+
+       nav {
+     font-size: 18px;
+     list-style-type: none;
+    margin: 0px;
+    margin-left: 150px;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  background-color: rgb(206,206,206);
+}
+
+
+li {
+
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: cener;
+    padding: 12.5px 10px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: grey;
+}
+
